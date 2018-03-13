@@ -19,7 +19,7 @@
  
  ### Примеры
 
-<a name="git_status">git status</a>
+<a name="git_status"><b><em>git status</em></b></a>
 
 `git status` - проверка статуса локального репозитария.
 Допустим в локальный реп. был добавлен новый файл  **new.txt** и также был изменен файл **read.txt**
