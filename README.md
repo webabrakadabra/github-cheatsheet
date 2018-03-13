@@ -18,7 +18,7 @@
 `git push -u origin master`
  
  ### Примеры
-
+-------------------
 <a name="git_status"><b><em>git status</em></b></a>
 
 `git status` - проверка статуса локального репозитария.
