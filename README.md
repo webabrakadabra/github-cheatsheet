@@ -20,9 +20,9 @@
 `git push -u origin master`
  
  <h3>Примеры</h3>
-   
+
 <a mame="git_status"><h3>git status<h3></a>
-   
+
 `git status` - проверка статуса локального репозитария.
 Допустим в локальный реп. был добавлен новый файл  **new.txt** и также был изменен файл **read.txt**
 Делаем команду **git status** 
