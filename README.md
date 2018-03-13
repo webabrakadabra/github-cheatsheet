@@ -17,7 +17,7 @@
 `git remote add origin https://github.com/webabrakadabra/X.git`  
 `git push -u origin master`
  
- <h3>Примеры</h3>
+ ### Примеры
 
 <a mame="git_status"><h3>git status<h3></a>
 
