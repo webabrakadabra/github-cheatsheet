@@ -77,7 +77,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 #### Запушить все ветки на сервер  
 ---------------------  
 <a name="push_all"></a>    
-`git push -all origin`    
+`git push --all origin`    
 #### Запушить одну ветку  
 ---------------------  
 <a name="push_one"></a>  
