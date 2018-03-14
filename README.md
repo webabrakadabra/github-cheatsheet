@@ -1,7 +1,8 @@
 # Шпаргалка по GitHub
 ---------------------
 ## Оглавление
-[git status](#git_status)
+[git status](#git_status)  
+[Создание веток](#branch_create)
 
 Можно вести разработку проекта на локальном устройстве. Доступно индексирование, коммит.
 Для начала необходимо в папке проэкта сделать инициализацию
@@ -25,7 +26,7 @@
 Допустим в локальный реп. был добавлен новый файл  **new.txt** и также был изменен файл **read.txt**
 Делаем команду **git status** 
   
-```
+````
 git status
  
 On branch new2 <-------------Ветка new2
@@ -41,4 +42,8 @@ Untracked files:
  
         new.txt <------------файл еще не проиндексирован (git add .)
  
-no changes added to commit (use "git add" and/or "git commit -a")
+no changes added to commit (use "git add" and/or "git commit -a") 
+````
+
+#### Создание веток
+<a name="branch_create"></a>
