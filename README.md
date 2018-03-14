@@ -58,7 +58,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
 #### Посмотреть список веток  
 ---------------------  
 <a name="branch_list"></a>   
-`git branch -v`    
+`git branch`  
+`git branch -v` - подробный вывод  
 
 #### Выбрать другую существующую ветку  
 --------------------  
