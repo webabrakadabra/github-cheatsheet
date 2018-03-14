@@ -84,7 +84,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 #### Удаление ветки  
 ---------------------  
 <a name="branch-del"></a>  
-`git branch -D new_branch2  
+`git branch -D new_branch2`    
 
 
 
