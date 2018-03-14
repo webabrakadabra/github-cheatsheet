@@ -46,7 +46,8 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a") 
 ````
 
-#### Создание веток
+#### Создание веток  
+-------------------  
 <a name="branch_create"></a>    
 Создание и автоматический переход в новую ветку    
 `git chechout -b new_branch`    
@@ -54,6 +55,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 `git branch new_branch2`  
 
 #### Посмотреть список веток  
+---------------------  
 <a name="branch_list"></a>   
 `git branch -v`  
 
