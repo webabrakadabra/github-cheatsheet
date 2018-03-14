@@ -69,9 +69,11 @@ no changes added to commit (use "git add" and/or "git commit -a")
 `git checkout new_branch2`    
 #### Запушить все ветки на сервер  
 ---------------------  
+<a name="push_all"></a>    
 `git push -all origin`    
 #### Запушить одну ветку  
 ---------------------  
+<a name="push_one"></a>  
 `git push name_branch origin` 
 
 
