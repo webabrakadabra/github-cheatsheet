@@ -2,7 +2,8 @@
 ---------------------
 ## Оглавление
 [git status](#git_status)  
-[Создание веток](#branch_create)
+[Создание веток](#branch_create)   
+[Посмотреть список веток](#branch_list)  
 
 Можно вести разработку проекта на локальном устройстве. Доступно индексирование, коммит.
 Для начала необходимо в папке проэкта сделать инициализацию
@@ -46,4 +47,13 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ````
 
 #### Создание веток
-<a name="branch_create"></a>
+<a name="branch_create"></a>    
+Создание и автоматический переход в новую ветку    
+`git chechout -b new_branch`    
+Создание без перехода в новую ветку  
+`git branch new_branch2`  
+
+#### Посмотреть список веток  
+<a name="branch_list"></a>   
+`git branch -v`  
+
