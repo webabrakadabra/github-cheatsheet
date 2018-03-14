@@ -4,6 +4,7 @@
 [git status](#git_status)  
 [Создание веток](#branch_create)   
 [Посмотреть список веток](#branch_list)  
+[Выбрать другую существующую ветку](#branch_change)
 
 Можно вести разработку проекта на локальном устройстве. Доступно индексирование, коммит.
 Для начала необходимо в папке проэкта сделать инициализацию
@@ -57,5 +58,11 @@ no changes added to commit (use "git add" and/or "git commit -a")
 #### Посмотреть список веток  
 ---------------------  
 <a name="branch_list"></a>   
-`git branch -v`  
+`git branch -v`    
+
+#### Выбрать другую существующую ветку  
+--------------------  
+<a name="branch_chahge"></a>  
+`git checkout new_branch2`  
+
 
