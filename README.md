@@ -8,7 +8,8 @@
 [Запушить все ветки на сервер](#push_all)  
 [Запушить одну ветку](#push_one)  
 [Слияние веток](#merge)    
-[Удаление ветки](#branch-del)  
+[Удаление ветки(локально)](#branch-del) 
+[Удаление ветки(на сервере)](#branch-del-remote)  
 [Посмотреть лог изменений](#log)  
 [Откат к коммиту](#revert)  
 [Отмена последнего коммита(не запушен)](#reset)  
@@ -85,10 +86,14 @@ no changes added to commit (use "git add" and/or "git commit -a")
 --------------------  
 <a name="merge"></a>  
 `git merge new_branch2`    
-#### Удаление ветки  
+#### Удаление ветки(локально)    
 ---------------------  
 <a name="branch-del"></a>  
 `git branch -D new_branch2`  
+#### Удаление ветки(на сервере)  
+-----------------------  
+<a name="branch-del-remote"></a>  
+`git push origin --delete new_branch2`  
 #### Посмотреть лог изменений  
 ---------------------  
 <a name="log"></a>  
