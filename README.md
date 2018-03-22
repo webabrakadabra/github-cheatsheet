@@ -13,7 +13,8 @@
 [Посмотреть лог изменений](#log)    
 [Откат к коммиту](#revert)    
 [Отмена последнего коммита(не запушен)](#reset-soft)    
-[Удаление последнего коммита(не запушен)](#reset-hard)    
+[Удаление последнего коммита(не запушен)](#reset-hard)      
+[Основные алиасы для Винды](#alias) 
 
 Можно вести разработку проекта на локальном устройстве. Доступно индексирование, коммит.
 Для начала необходимо в папке проэкта сделать инициализацию
@@ -110,7 +111,17 @@ no changes added to commit (use "git add" and/or "git commit -a")
 #### Удаление последнего коммита(не запушен)  
 ----------------------------------------  
 <a name="reset-hard"></a>  
-`git reset --hard HEAD^`  
+`git reset --hard HEAD^`   
+#### Основные алиасы (для Винды)  
+----------------------------------------  
+<a name="alias"></a>  
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.br branch
+git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+git config --global alias.type 'cat-file -t'
+git config --global alias.dump 'cat-file -p'  
 
 
 
