@@ -45,6 +45,7 @@ link: https://git-scm.com/downloads
 `git status` - проверка статуса локального репозитария.
 Допустим в локальный реп. был добавлен новый файл  **new.txt** и также был изменен файл **read.txt**
 Делаем команду **git status** 
+
   
 ````
 git status
@@ -64,6 +65,7 @@ Untracked files:
  
 no changes added to commit (use "git add" and/or "git commit -a") 
 ````
+
 --------------------------------------------  
 #### Создание веток  
 <a name="branch_create"></a>    
@@ -71,52 +73,64 @@ no changes added to commit (use "git add" and/or "git commit -a")
 `git chechout -b new_branch`    
 Создание без перехода в новую ветку  
 `git branch new_branch2`  
+
 ---------------------------------------------  
 #### Посмотреть список веток  
 <a name="branch_list"></a>   
 `git branch`  
 `git branch -v` - подробный вывод  
+
 ----------------------------------------------  
 #### Выбрать другую существующую ветку  
 <a name="branch_chahge"></a>  
 `git checkout new_branch2`    
+
 ----------------------------------------------  
 #### Запушить все ветки на сервер  
 <a name="push_all"></a>    
 `git push --all origin`    
+
 -----------------------------------------------  
 #### Запушить одну ветку  
 <a name="push_one"></a>  
 `git push name_branch origin`   
+
 -----------------------------------------------  
 #### Слияние веток  
 <a name="merge"></a>  
 `git merge new_branch2`    
+
 -------------------------------------------------  
 #### Удаление ветки(локально)    
 <a name="branch-del"></a>  
 `git branch -D new_branch2`  
+
 ----------------------------------------------------  
 #### Удаление ветки(на сервере)  
 <a name="branch-del-remote"></a>  
 `git push origin --delete new_branch2`  
+
 -----------------------------------------------------  
 #### Посмотреть лог изменений  
 <a name="log"></a>  
 `git log`    
+
 --------------------------------------------------------  
 #### Откат к коммиту  
 <a name="revert"></a>  
 `git revert 3f91a9aa4ecae0396c37bc1612e6c1bfdf77e9b5`  
+
 ---------------------------------------------------------  
 #### Отмена последнего коммита  
 <a name="reset-soft"></a>  
-`git reset --soft HEAD^`    
+`git reset --soft HEAD^`      
 Эта команда отменит последний коммит (но не изменения, которые вы внесли, они сохранятся).  
+
 ------------------------------------------------------------   
 #### Удаление последнего коммита(не запушен)  
 <a name="reset-hard"></a>  
 `git reset --hard HEAD^`   
+
 -----------------------------------------------------------  
 #### Основные алиасы (для Винды)  
 <a name="alias"></a>  
@@ -126,7 +140,8 @@ git config --global alias.st status
 git config --global alias.br branch  
 git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"  
 git config --global alias.type 'cat-file -t'  
-git config --global alias.dump 'cat-file -p'    
+git config --global alias.dump 'cat-file -p'   
+
 -----------------------------------------------------------------------------  
 #### Принудительна перезапись удаленного файла репозитария  
 <a name="git_force"></a>
@@ -149,5 +164,6 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 `git push -force`  
 или  
 `git push -f`  
+
 -----------------------------------------  
 
